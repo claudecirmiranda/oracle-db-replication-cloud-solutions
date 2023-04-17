@@ -70,6 +70,14 @@ Pode haver custos adicionais para a execução de projetos de migração em larg
 ## Diagramas
 Para cada solução, foram criados diagramas representando a arquitetura sugerida. Os diagramas foram criados usando a biblioteca Diagrams em Python e estão disponíveis na pasta "diagrams" neste repositório.
 
+Para executar os códigos Python e visualizar os diagramas de cada solução, siga os seguintes passos:
+
+- Clone o repositório para o seu computador;
+- Certifique-se de ter o Python 3.6 ou superior instalado em seu sistema;
+- Instale as bibliotecas necessárias, listadas no arquivo requirements.txt, executando o comando `pip install -r requirements.txt` no terminal;
+- Abra o arquivo Python correspondente à solução desejada e execute-o no terminal com o comando `python nome_do_arquivo.py`.
+- Os diagramas gerados serão salvos na pasta "diagrams" deste repositório e poderão ser visualizados em qualquer visualizador de imagem.
+
 ## Como Usar
 Este projeto pode ser clonado ou baixado para uso como referência para a criação de soluções de replicação de dados em nuvem. É importante salientar que a escolha da solução deve ser feita com base nas necessidades e restrições específicas de cada projeto.
 
