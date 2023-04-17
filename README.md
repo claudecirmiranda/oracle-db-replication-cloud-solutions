@@ -1,14 +1,16 @@
 # Replicação na Cloud de Dados Oracle On-Premisses
-Este é um projeto que tem como objetivo apresentar soluções para a replicação de dados de um banco Oracle on-premisses para a cloud. A replicação é feita para permitir a criação de uma stage para uso em integrações e APIs.
+Este projeto tem como objetivo apresentar três soluções para replicar dados de um banco Oracle on-premises para a nuvem, criando uma stage para integrações e APIs. As soluções propostas são: AWS Database Migration Service (DMS), Oracle GoldenGate e Azure Database Migration Service.
 
-O objetivo é fornecer uma solução segura, eficiente e escalável para manter os dados atualizados e disponíveis na cloud, para uso em aplicações e análises.
+O objetivo é fornecer opções seguras, eficientes e escaláveis para manter os dados atualizados e disponíveis na nuvem, para uso em aplicações e análises. Cada solução oferece benefícios específicos, como alta disponibilidade, replicação em tempo real, integração com outros serviços de nuvem, entre outros.
+
+A escolha da solução ideal depende das necessidades e requisitos específicos de cada projeto, como orçamento, tempo de migração, quantidade de dados a serem replicados, entre outros fatores. Com as três opções apresentadas, espera-se atender a diferentes cenários e demandas de replicação de dados na nuvem.
 
 ## Soluções Propostas
 Foram apresentadas três soluções para a replicação dos dados: AWS Database Migration Service (DMS), Oracle GoldenGate e Azure Data Factory. Cada solução tem suas características específicas, vantagens e desafios. A escolha da solução dependerá das necessidades e restrições do projeto.
 
 ### Solução 1: AWS Database Migration Service (DMS)
 
-***inderir diagrama
+![Arquitetura sugerida](./scr/diagrams/aws_database_migration_service.png)
 
 **Descrição**:
 O AWS Database Migration Service (DMS) é uma solução de replicação de banco de dados totalmente gerenciada que permite migrar dados para a AWS de forma contínua. A solução é capaz de replicar dados de diferentes fontes de dados, incluindo bancos de dados Oracle on-premises.
@@ -27,6 +29,8 @@ Custo variável com base no tamanho dos dados replicados.
 
 ### Solução 2: Oracle GoldenGate
 
+![Arquitetura sugerida](./scr/diagrams/oracle_goldengate_na_oci.png)
+
 **Descrição**:
 O Oracle GoldenGate é uma solução de replicação de dados de alto desempenho que permite a captura, transformação e entrega de dados de forma rápida e confiável. Essa solução é capaz de migrar dados em tempo real e é altamente escalável, podendo ser usada em ambientes de alta demanda.
 
@@ -43,6 +47,8 @@ Complexidade de configuração e gerenciamento;
 Licenciamento pago.
 
 ### Solução 3: Azure Database Migration Service
+
+![Arquitetura sugerida](./scr/diagrams/azure_database_migration_service.png)
 
 **Descrição**:
 O Azure Database Migration Service é um serviço de migração de dados totalmente gerenciado que permite mover bancos de dados de forma segura e confiável para a nuvem do Azure. Ele fornece uma plataforma para a execução de processos de migração de dados para mover bancos de dados para e de diferentes fontes de dados.
