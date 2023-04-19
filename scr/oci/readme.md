@@ -15,4 +15,7 @@ A arquitetura do Oracle GoldenGate é baseada em um processo de captura de dados
 
 **Desafios**:
 - Complexidade de configuração e gerenciamento;
+  - Requer um conhecimento mais aprofundado em bancos de dados Oracle e em configurações de rede;
+  - A configuração pode ser demorada e propensa a erros;
+  - O gerenciamento da replicação pode exigir mais tempo e recursos do que outras soluções.
 - Licenciamento pago.
