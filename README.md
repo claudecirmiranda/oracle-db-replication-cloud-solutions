@@ -19,13 +19,13 @@ O AWS Database Migration Service (DMS) é uma solução de replicação de banco
 A arquitetura do AWS DMS é baseada em agentes que são instalados no servidor do banco de dados fonte e no servidor de destino. Os agentes capturam as mudanças no banco de dados fonte e as replicam no banco de dados de destino. O serviço é altamente escalável, permitindo a replicação de grandes volumes de dados com alta disponibilidade.
 
 **Benefícios**:
-Totalmente gerenciado pela AWS;
-Alta escalabilidade;
-Suporte a diversos bancos de dados, incluindo Oracle, Microsoft SQL Server, MySQL, entre outros.
+- Totalmente gerenciado pela AWS;
+- Alta escalabilidade;
+- Suporte a diversos bancos de dados, incluindo Oracle, Microsoft SQL Server, MySQL, entre outros.
 
 **Desafios**:
-Limitações na customização do processo de replicação;
-Custo variável com base no tamanho dos dados replicados.
+- Limitações na customização do processo de replicação;
+- Custo variável com base no tamanho dos dados replicados.
 
 ### Solução 2: Oracle GoldenGate
 
@@ -38,13 +38,13 @@ O Oracle GoldenGate é uma solução de replicação de dados de alto desempenho
 A arquitetura do Oracle GoldenGate é baseada em um processo de captura de dados (extract), processo de transformação de dados (replicat) e a infraestrutura de entrega (manager) que coordena as operações de replicação. Na arquitetura de replicação, a aplicação cliente envia as transações para o banco de dados fonte, onde o processo extract do Oracle GoldenGate captura as mudanças. Em seguida, as mudanças são transmitidas para o banco de dados de destino, onde o processo replicat as aplica. O processo manager é responsável por gerenciar a replicação e monitorar o status de cada componente.
 
 **Benefícios**:
-Alta performance e escalabilidade;
-Replicação de dados em tempo real;
-Suporte a diversos bancos de dados, incluindo Oracle, Microsoft SQL Server, MySQL, entre outros.
+- Alta performance e escalabilidade;
+- Replicação de dados em tempo real;
+- Suporte a diversos bancos de dados, incluindo Oracle, Microsoft SQL Server, MySQL, entre outros.
 
 **Desafios**:
-Complexidade de configuração e gerenciamento;
-Licenciamento pago.
+- Complexidade de configuração e gerenciamento;
+- Licenciamento pago.
 
 ### Solução 3: Azure Database Migration Service
 
@@ -57,15 +57,15 @@ O Azure Database Migration Service é um serviço de migração de dados totalme
 A arquitetura do Azure Database Migration Service envolve a criação de projetos de migração que permitem a execução de tarefas para mover bancos de dados em diferentes fontes de dados. Os projetos são criados usando componentes pré-configurados, como fontes de dados e destinos de dados. O Azure Database Migration Service oferece suporte a diversas fontes de dados, incluindo Oracle, SQL Server, MySQL, entre outros.
 
 **Benefícios**:
-Totalmente gerenciado pela Microsoft;
-Segurança e confiabilidade na migração de dados;
-Oferece suporte a diversas fontes de dados;
-Permite a criação de projetos de migração personalizados;
-Redução do tempo e esforço na migração de dados.
+- Totalmente gerenciado pela Microsoft;
+- Segurança e confiabilidade na migração de dados;
+- Oferece suporte a diversas fontes de dados;
+- Permite a criação de projetos de migração personalizados;
+- Redução do tempo e esforço na migração de dados.
 
 **Desafios**:
-Configuração inicial pode ser complexa para usuários iniciantes;
-Pode haver custos adicionais para a execução de projetos de migração em larga escala.
+- Configuração inicial pode ser complexa para usuários iniciantes;
+- Pode haver custos adicionais para a execução de projetos de migração em larga escala.
 
 ## Diagramas
 Para cada solução, foram criados diagramas representando a arquitetura sugerida. Os diagramas foram criados usando a biblioteca Diagrams em Python e estão disponíveis na pasta "diagrams" neste repositório.
