@@ -6,7 +6,7 @@ O objetivo é fornecer opções seguras, eficientes e escaláveis para manter os
 A escolha da solução ideal depende das necessidades e requisitos específicos de cada projeto, como orçamento, tempo de migração, quantidade de dados a serem replicados, entre outros fatores. Com as três opções apresentadas, espera-se atender a diferentes cenários e demandas de replicação de dados na nuvem.
 
 ## Soluções Propostas
-Foram apresentadas três soluções para a replicação dos dados: AWS Database Migration Service (DMS), Oracle GoldenGate e Azure Data Factory. Cada solução tem suas características específicas, vantagens e desafios. A escolha da solução dependerá das necessidades e restrições do projeto.
+Foram apresentadas três soluções para a replicação dos dados: AWS Database Migration Service (DMS), Oracle GoldenGate e Azure Database Migration Service. Cada solução tem suas características específicas, vantagens e desafios. A escolha da solução dependerá das necessidades e restrições do projeto.
 
 ### Solução 1: AWS Database Migration Service (DMS)
 
